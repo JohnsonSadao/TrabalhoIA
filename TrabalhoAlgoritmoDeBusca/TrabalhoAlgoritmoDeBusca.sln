@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabalhoAlgoritmoDeBusca.Domain", "TrabalhoAlgoritmoDeBusca\TrabalhoAlgoritmoDeBusca.Domain.csproj", "{0259D822-4A64-45C7-B719-A658C91B4992}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Apresentation", "1.Apresentation", "{5A0AFF09-17E6-4906-A304-6BA36CB73F71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{D9C1CF56-9999-4739-8334-41CC6C940C88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{8BA2D663-52C0-44A0-9237-59CB4849A8CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0259D822-4A64-45C7-B719-A658C91B4992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0259D822-4A64-45C7-B719-A658C91B4992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0259D822-4A64-45C7-B719-A658C91B4992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0259D822-4A64-45C7-B719-A658C91B4992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0259D822-4A64-45C7-B719-A658C91B4992} = {8BA2D663-52C0-44A0-9237-59CB4849A8CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DFC6FF1-B033-4446-A5B3-35D9E64E21FA}
+	EndGlobalSection
+EndGlobal
