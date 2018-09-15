@@ -49,7 +49,7 @@ namespace TrabalhoAlgoritmoDeBusca.Infra
             caminho.Push(cidade.Nome);
             if (cidadeDestino.Nome != cidade.Nome)
             {
-                BuscaProfundidade.(cidade.Neighbors.First, cidadeDestino);
+                BuscaProfundidade(cidade.Neighbors.First, cidadeDestino);
             }
         }
 
