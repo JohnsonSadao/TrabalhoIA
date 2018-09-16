@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Features\Grafo.cs" />
+    <Compile Include="Features\Node.cs" />
     <Compile Include="Features\Vertice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

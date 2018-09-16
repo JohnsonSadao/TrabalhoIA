@@ -11,5 +11,10 @@ namespace TrabalhoAlgoritmoDeBusca
         public string Nome { get; set; }
         public string Capital { get; set; } 
         public LinkedList<Vertice> Neighbors { get; set; }
+
+        public override string ToString()
+        {
+            return Nome + " - " + Capital;
+        }
     }
 }
