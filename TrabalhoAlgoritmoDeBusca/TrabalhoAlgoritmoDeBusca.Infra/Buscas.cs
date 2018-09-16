@@ -47,7 +47,7 @@ namespace TrabalhoAlgoritmoDeBusca.Infra
                     return true;
                 }
             }
-
+            caminho.Pop();
             return false;
                         
         }
