@@ -11,6 +11,10 @@ namespace TrabalhoAlgoritmoDeBusca.Infra
     {
         public Stack<Node> caminho;
 
+        public Buscas()
+        {
+        }
+
         public List<string> BuscaProfundidadeLimitada(Vertice cidadeOrigem , Vertice cidadeDestino, int limite)
         {
             caminho.Clear();

@@ -11,5 +11,8 @@ namespace TrabalhoAlgoritmoDeBusca.Features
         public Node Pai { get; set; }
 
         public Vertice Vertice { get; set; }
+
+        public List<Vertice> Vizinhos { get; set; }
+
     }
 }
