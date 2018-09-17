@@ -10,11 +10,10 @@ namespace TrabalhoAlgoritmoDeBusca
     {
         public string Nome { get; set; }
         public string Capital { get; set; }
-        public List<Vertice> Neighbors { get; set; }
+        //public List<Vertice> Neighbors { get; set; }
 
         public Vertice()
         {
-            Neighbors = new List<Vertice>();
         }
 
         public override string ToString()
