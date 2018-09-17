@@ -9,8 +9,8 @@ namespace TrabalhoAlgoritmoDeBusca
     public class Vertice
     {
         public string Nome { get; set; }
-        public string Capital { get; set; } 
-        //public List<Vertice> Neighbors { get; set; }
+        public string Capital { get; set; }
+        public List<Vertice> Neighbors { get; set; }
 
         public Vertice()
         {
