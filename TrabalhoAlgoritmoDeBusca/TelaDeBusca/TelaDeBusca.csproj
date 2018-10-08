@@ -79,6 +79,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TrabalhoAlgoritmoDeBusca.Infra\TrabalhoAlgoritmoDeBusca.Infra.csproj">
+      <Project>{6DF3BDE5-BC35-4EDE-9570-250E85DC8FAA}</Project>
+      <Name>TrabalhoAlgoritmoDeBusca.Infra</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TrabalhoAlgoritmoDeBusca\TrabalhoAlgoritmoDeBusca.Domain.csproj">
       <Project>{0259D822-4A64-45C7-B719-A658C91B4992}</Project>
       <Name>TrabalhoAlgoritmoDeBusca.Domain</Name>

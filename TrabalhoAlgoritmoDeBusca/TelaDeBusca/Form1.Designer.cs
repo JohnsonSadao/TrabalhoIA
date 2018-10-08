@@ -110,18 +110,16 @@
             this.lblNosGerados.AutoSize = true;
             this.lblNosGerados.Location = new System.Drawing.Point(90, 279);
             this.lblNosGerados.Name = "lblNosGerados";
-            this.lblNosGerados.Size = new System.Drawing.Size(35, 13);
+            this.lblNosGerados.Size = new System.Drawing.Size(0, 13);
             this.lblNosGerados.TabIndex = 7;
-            this.lblNosGerados.Text = "label4";
             // 
             // lblNosExpandidos
             // 
             this.lblNosExpandidos.AutoSize = true;
             this.lblNosExpandidos.Location = new System.Drawing.Point(270, 279);
             this.lblNosExpandidos.Name = "lblNosExpandidos";
-            this.lblNosExpandidos.Size = new System.Drawing.Size(35, 13);
+            this.lblNosExpandidos.Size = new System.Drawing.Size(0, 13);
             this.lblNosExpandidos.TabIndex = 8;
-            this.lblNosExpandidos.Text = "label5";
             // 
             // label6
             // 
@@ -146,9 +144,8 @@
             this.lblPassosDados.AutoSize = true;
             this.lblPassosDados.Location = new System.Drawing.Point(261, 310);
             this.lblPassosDados.Name = "lblPassosDados";
-            this.lblPassosDados.Size = new System.Drawing.Size(35, 13);
+            this.lblPassosDados.Size = new System.Drawing.Size(0, 13);
             this.lblPassosDados.TabIndex = 11;
-            this.lblPassosDados.Text = "label5";
             // 
             // label5
             // 
@@ -164,9 +161,8 @@
             this.lblTempoExecucao.AutoSize = true;
             this.lblTempoExecucao.Location = new System.Drawing.Point(90, 310);
             this.lblTempoExecucao.Name = "lblTempoExecucao";
-            this.lblTempoExecucao.Size = new System.Drawing.Size(35, 13);
+            this.lblTempoExecucao.Size = new System.Drawing.Size(0, 13);
             this.lblTempoExecucao.TabIndex = 13;
-            this.lblTempoExecucao.Text = "label7";
             // 
             // Form1
             // 
@@ -188,7 +184,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tela De Buscas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
